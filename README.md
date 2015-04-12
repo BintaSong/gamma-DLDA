@@ -1,3 +1,7 @@
 # gamma-DLDA
-
-this is gamma-DLDA,using symetric alpha and import the gamma beta prior to distinguish where a word is from. 
+毕业设计项目——使用辅助文本信息的短文本聚类算法，基于LDA实现，采用对称alpha参数,引入了gamma参数，作为beta先验参数，与二项分布共轭，用来区别，某个单词来源于辅助数据还是短文本目标数据。
+#语料集
+辅助文本1791篇文档，包括九个类别；
+短文本文档共一百篇，分为十类。
+#配置
+LDASampling.java中输入文件和输出文件路径需要自己设置。
